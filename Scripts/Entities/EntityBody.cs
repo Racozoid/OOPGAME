@@ -2,6 +2,7 @@
 using Godot;
 
 
+// Класс связывающий существо с Godot
 namespace OOPGAME.Entities
 {
     public class EntityBody : KinematicBody2D
@@ -18,7 +19,7 @@ namespace OOPGAME.Entities
             _Data = data;
         }
 
-        
+        // Переопределение основых методов
         public override void _PhysicsProcess(float delta)
         {
             PhysicsProcess?.Invoke(delta);
@@ -44,7 +45,7 @@ namespace OOPGAME.Entities
             MoveAndSlide(_Data.Velocity.Normalized() * _Data.Speed);
         }
 
-        
+        // Поворот персонажа по оси x
         private void UpdateLookDirection()
         {
             if (_Data.Velocity.x > 0)

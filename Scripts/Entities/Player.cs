@@ -2,7 +2,7 @@
 using Godot;
 using OOPGAME.Utilities;
 
-
+// Класс игрока
 namespace OOPGAME.Entities
 {
     public class Player : Entity
@@ -11,10 +11,12 @@ namespace OOPGAME.Entities
 
         public Player()
         {
+            // Параметры игрока
             Data.Sprite.Texture = ImageLoader.LoadTexture("res://Sprites/Entities/Player/Knight.png", true);
             Data.InitBody(6, 4, new Vector2(0, -16));
             Data.InitCollider(3, 6);
 
+            // Камера
             _Camera = new Camera2D();
             _Camera.Current = true;
 
@@ -23,7 +25,7 @@ namespace OOPGAME.Entities
             Body.PhysicsProcess += Control;
         }
 
-        
+        // Управление персонажем
         private void Control(float delta)
         {
             GetInputDirection();

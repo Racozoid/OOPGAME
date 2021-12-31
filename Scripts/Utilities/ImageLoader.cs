@@ -1,7 +1,7 @@
 ﻿using System;
 using Godot;
 
-
+// Вспомогательный класс импортирующий изображения
 namespace OOPGAME.Utilities
 {
     public static class ImageLoader
@@ -14,9 +14,9 @@ namespace OOPGAME.Utilities
             _Image.Load(path);
 
             if (isPixelTexture)
-                _ImageTexture.CreateFromImage(_Image, 0); 
+                _ImageTexture.CreateFromImage(_Image, 0); // Загружаем изображение без сглаживания
             else
-                _ImageTexture.CreateFromImage(_Image);  
+                _ImageTexture.CreateFromImage(_Image);  // Загружаем изображение со сглаживанием
 
 
             return _ImageTexture;
