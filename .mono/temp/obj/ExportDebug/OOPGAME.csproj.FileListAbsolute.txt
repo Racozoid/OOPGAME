@@ -1,0 +1,9 @@
+C:\Users\sasha\Documents\GitHub\OOPGAME\.mono\temp\bin\ExportDebug\OOPGAME.dll
+C:\Users\sasha\Documents\GitHub\OOPGAME\.mono\temp\bin\ExportDebug\OOPGAME.pdb
+C:\Users\sasha\Documents\GitHub\OOPGAME\.mono\temp\obj\ExportDebug\OOPGAME.csproj.AssemblyReference.cache
+C:\Users\sasha\Documents\GitHub\OOPGAME\.mono\temp\obj\ExportDebug\OOPGAME.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\Documents\GitHub\OOPGAME\.mono\temp\obj\ExportDebug\OOPGAME.AssemblyInfoInputs.cache
+C:\Users\sasha\Documents\GitHub\OOPGAME\.mono\temp\obj\ExportDebug\OOPGAME.AssemblyInfo.cs
+C:\Users\sasha\Documents\GitHub\OOPGAME\.mono\temp\obj\ExportDebug\OOPGAME.csproj.CoreCompileInputs.cache
+C:\Users\sasha\Documents\GitHub\OOPGAME\.mono\temp\obj\ExportDebug\OOPGAME.dll
+C:\Users\sasha\Documents\GitHub\OOPGAME\.mono\temp\obj\ExportDebug\OOPGAME.pdb
